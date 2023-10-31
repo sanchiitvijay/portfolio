@@ -1,5 +1,7 @@
 import React from 'react';
-
+import './skills.css';
+import Frontend from './Frontend';
+import Backend from './Backend';
 
 function Skills (){
     return(
@@ -8,7 +10,8 @@ function Skills (){
             <span className='section_subtitle'>My skills</span>
         
             <div className='skills_container container grid'>
-                
+                <Frontend />
+                <Backend />
             </div>
         </section>
     )
