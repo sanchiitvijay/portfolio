@@ -65,6 +65,7 @@
     }
 
     .about_info {
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
     }
 
