@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: var(--container-color);
 }
 
 .nav {
@@ -97,7 +97,6 @@
     .nav_toggle {
         font-size: 1.1rem;
         cursor: pointer;
-
     }
 
     .nav_icon, .nav_close, .nav_toggle {
