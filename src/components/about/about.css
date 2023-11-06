@@ -19,7 +19,7 @@
 
 .about_box {
     background-color: var(--container-color);
-    border: 1px solve rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
@@ -57,7 +57,7 @@
     }
 
     .about_box {
-        padding: 0.75rem;
+        padding: 0.75rem 0.5rem;
     }
 
     .about_data {
@@ -65,7 +65,7 @@
     }
 
     .about_info {
-        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-columns: repeat(3 , 1fr); */
         justify-content: center;
     }
 
@@ -91,7 +91,7 @@
   /* for small devices */
 @media screen and (max-width: 350px) {
     .about_info {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 2fr);
     }
 }
   

@@ -6,10 +6,10 @@ function Info(){
         <div className='about_info grid'>
             <div className='about_box'>
                 <h3 className='about_title'>
-                    grdgjbnfkddnf
+                    grdgjb
                 </h3>
                 <span className='about_subtitle'>
-                    dfnfdgvndfvnflkdvnfdvnfkvnvclk
+                    dfnfdgvnd
                 </span>
             </div>
             <div className='about_box'>
@@ -17,15 +17,15 @@ function Info(){
                     dfhdfvdfj
                 </h3>
                 <span className='about_subtitle'>
-                    weidedknfsdvjnsdvjdfnm
+                    weidedk
                 </span>
             </div>
             <div className='about_box'>
                 <h3 className='about_title'>
-                    wfeifksndfjd
+                    wfeifk
                 </h3>
                 <span className='about_subtitle'>
-                    fhsiodfheoifedskfdsncmxncxmcn
+                    fhsiodfheo
                 </span>
             </div>
         </div>
