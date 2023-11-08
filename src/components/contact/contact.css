@@ -95,12 +95,17 @@
     }
 
     .contact_address {
-        margin: 2rem 2.5rem;
+        margin: 0 auto;
     }
 
     .contact_card_address {
         padding: 1rem;
         align-self: center;
+    }
+
+    .contact_address-link {
+        width: 100%;
+        height: 100%;
     }
   }
   
@@ -108,6 +113,7 @@
     .contact_info {
         grid-template-columns: 1fr;
     }
+    
   }
   
   /* for small devices */
