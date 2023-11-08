@@ -19,7 +19,7 @@ function Contact(){
                             <h3 className='contact_card-title'>Email</h3>
                             <span className='contact_card-data'>sanchiitvijay@gmail.com</span>
 
-                            <a href="mailto:sanchiitvijay@gmail.com.com" className='contact_button'>
+                            <a href="mailto: sanchiitvijay@gmail.com" className='contact_button'>
                                 Write me{" "}
                                 <i className='bx bx-right-arrow-alt contact_button'></i>
                             </a>
@@ -61,8 +61,10 @@ function Contact(){
                             {/* <h3 className='contact_card-title'></h3> */}
                             <span className='contact_card-data contact_card_address'>NNRI Msrit Hostel, Gate 10 Mathikere, Bengaluru (560054)</span>
                         </div>
+                        
                         <div className='contact_address'>
-                        <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0580947075996!2d77.56120567489407!3d13.031972487288991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1724e349427b%3A0xa56deb9f316bef29!2sNnri%20hostel%2C%20Msrit%20hostels!5e0!3m2!1sen!2sin!4v1699433800528!5m2!1sen!2sin' className='contact_address-link' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0580947075996!2d77.56120567489407!3d13.031972487288991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1724e349427b%3A0xa56deb9f316bef29!2sNnri%20hostel%2C%20Msrit%20hostels!5e0!3m2!1sen!2sin!4v1699433800528!5m2!1sen!2sin' className='contact_address-link' allowfullscreen="" loading="lazy" title='address' referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                 </div>
             </div>

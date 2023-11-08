@@ -6,28 +6,28 @@ function Info(){
         <div className='about_info grid'>
             <div className='about_box'>
                 <h3 className='about_title'>
-                    grdgjb
+                    Digital architech
                 </h3>
                 <span className='about_subtitle'>
-                    dfnfdgvnd
+                    Full stack web development
                 </span>
             </div>
             <div className='about_box'>
                 <h3 className='about_title'>
-                    dfhdfvdfj
+                    Problem solver
                 </h3>
                 <span className='about_subtitle'>
-                    weidedk
+                    Competitive Programmer
                 </span>
             </div>
-            <div className='about_box'>
+            {/* <div className='about_box'>
                 <h3 className='about_title'>
                     wfeifk
                 </h3>
                 <span className='about_subtitle'>
                     fhsiodfheo
                 </span>
-            </div>
+            </div> */}
         </div>
     )
 }

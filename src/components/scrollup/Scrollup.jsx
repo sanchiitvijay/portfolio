@@ -8,7 +8,7 @@ function Scrollup(){
         else scrollup.classList.remove("show-scroll");
     });
     return(
-        <a href='fdc' className='scrollup'>
+        <a href='#home' className='scrollup'>
             <i className='uil uil-arrow-up scrollup_icon'></i>
         </a>
     )

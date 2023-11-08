@@ -6,13 +6,16 @@
   --header-height: 3rem;
 
     /* colours */
-    --hue: 0;
+     --hue: 0;
     --sat: 0%;
     --title-color: hsl(var(--hue), var(--sat), 20%);
     --title-color-dark: hsl(var(--hue), var(--sat), 0%);
     --text-color: hsl(var(--hue), var(--sat), 46%);
-    --body-color: hsl(var(--hue), var(--sat), 98%);
-    --container-color: #fff;
+    /* --body-color: hsl(var(--hue), var(--sat), 98%);
+    --container-color: #fff;  */
+
+    --body-color: rgb(251, 251, 239);
+    --container-color: #f6f6e2; 
 
     /* font */
     --body-font: "Poppins", sans-serif;

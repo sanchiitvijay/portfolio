@@ -8,7 +8,7 @@ function Projects(){
         setToggleState(index);
     }
     return(
-        <section className='projects section' id="projects">
+        <section className='projects section' id="project">
             <h2 className='section_title'>Projects</h2>
             <span className='section_subtitle'>What I made</span>
 
