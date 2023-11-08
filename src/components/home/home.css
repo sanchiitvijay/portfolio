@@ -8,6 +8,7 @@
     padding-top: 5.5rem;
     column-gap: 2rem;
     align-items: center; 
+    /* margin-bottom: -2.5rem; */
 }
 
 .home_social {
@@ -58,7 +59,7 @@
 
 .home_description {
     max-width: 400px;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-2-5);
 }
 
 .home_img {

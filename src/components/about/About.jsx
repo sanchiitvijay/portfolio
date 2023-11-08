@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assests/about.jpg";
-import CV from "../../assests/John-Cv.pdf";
+import CV from "../../assests/resume.pdf";
 import Info from "./Info.jsx"
 
 function About(){
@@ -16,7 +16,9 @@ function About(){
                 <div className='about_data'>
                     <Info />
 
-                    <p className='about_description'>sdivnsdvn</p>
+                    <p className='about_description'>
+                      I'm currently deeply involved in the exciting realms of full-stack web development and competitive programming. I have a strong passion for creating user-friendly websites and a knack for tackling complex coding challenges, making my journey in the tech world an exhilarating one.
+                    </p>
                     <a download="" href={CV} className='button button--flex'>
                         Download CV
                         <svg

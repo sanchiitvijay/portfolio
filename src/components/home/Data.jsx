@@ -54,10 +54,11 @@ function Data() {
                   ></path>
                 </svg>
             </h1>
-            <h3 className='home_subtitle'>Web developer</h3>
+            <h3 className='home_subtitle'>Tech Enthusiast</h3>
             <p className='home_description'>
-            I'm deeply immersed in the world of full-stack web development, and I'm incredibly passionate about crafting immersive digital experiences.
 
+            Enthusiastic Full-Stack Developer and Competitive Programmer. Crafting Digital Marvels and Mastering Code Complexity for a Tech-Driven Tomorrow.
+            
             </p>
 
             <a href='#contact' className='button button--flex'>
