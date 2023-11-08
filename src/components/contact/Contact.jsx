@@ -31,7 +31,7 @@ function Contact(){
                             <h3 className='contact_card-title'>Phone</h3>
                             <span className='contact_card-data'>+91 8445137008</span>
 
-                            <a href="dff" className='contact_button'>
+                            <a href="tel:8445137008" className='contact_button'>
                                 Write me{" "}
                                 <i className='bx bxl-right-arrow-alt contact_button'></i>
                             </a>
@@ -43,7 +43,7 @@ function Contact(){
                             <h3 className='contact_card-title'>LinkedIn</h3>
                             <span className='contact_card-data'>sanchiiitvijay</span>
 
-                            <a href="sdd" className='contact_button'>
+                            <a href="https://www.linkedin.com/in/sanchiitvijay" className='contact_button' rel='noopener noreferrer' target='_blank'>
                                 Write me{" "}
                                 <i className='bx bx-right-arrow-alt contact_button'></i>
                             </a>
@@ -53,24 +53,17 @@ function Contact(){
                 </div>
 
                 <div className='contact_content'>
-                    <h3 className='contact_title'>Write me your project</h3>
+                    <h3 className='contact_title'>My addresss</h3>
 
-                    <form className='contact_form'>
-                        <div className='contact_form-div'>
-                            <label className='contact_form-tag'>Name</label>
-                            <input type='text' name='name' className='contact_form-input' placeholder='Insert your name' />
-                        </div>
+                    <div className='contact_card contact_address'>
+                            {/* <i className='bx bxl-messenger contact_card-icon'></i> */}
 
-                        <div className='contact_form-div'>
-                            <label className='contact_form-tag'>Mail</label>
-                            <input type='email' name='email' className='contact_form-input' placeholder='Insert your Email' />
+                            {/* <h3 className='contact_card-title'></h3> */}
+                            <span className='contact_card-data contact_card_address'>NNRI Msrit Hostel, Gate 10 Mathikere, Bengaluru (560054)</span>
                         </div>
-
-                        <div className='contact_form-div'>
-                            <label className='contact_form-tag'>Projects</label>
-                            <textarea name='project' cols='30' rows='10' className='contact_form-input' placeholder='write your project'></textarea>
+                        <div className='contact_address'>
+                        <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0580947075996!2d77.56120567489407!3d13.031972487288991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1724e349427b%3A0xa56deb9f316bef29!2sNnri%20hostel%2C%20Msrit%20hostels!5e0!3m2!1sen!2sin!4v1699433800528!5m2!1sen!2sin' className='contact_address-link' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                    </form>
                 </div>
             </div>
         </section>
