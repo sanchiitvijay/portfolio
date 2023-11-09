@@ -53,7 +53,7 @@ function Contact(){
                 </div>
 
                 <div className='contact_content'>
-                    <h3 className='contact_title'>My addresss</h3>
+                    <h3 className='contact_title'>My address</h3>
 
                     <div className='contact_card contact_address'>
                             {/* <i className='bx bxl-messenger contact_card-icon'></i> */}
