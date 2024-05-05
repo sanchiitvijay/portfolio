@@ -57,7 +57,7 @@ function Data() {
             <h3 className='home_subtitle'>Tech Enthusiast</h3>
             <p className='home_description'>
 
-            Enthusiastic Full-Stack Developer and Competitive Programmer. Crafting Digital Marvels and Mastering Code Complexity for a Tech-Driven Tomorrow.
+            Full-Stack Developer and Competitive Programmer. Crafting Digital Marvels and Mastering Code Complexity for a Tech-Driven Tomorrow.
             
             </p>
 
