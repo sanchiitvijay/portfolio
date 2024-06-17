@@ -14,6 +14,36 @@ function Projects(){
 
             <div className='projects_container container grid'>
 
+                {/* Chat App */}
+                <div className='projects_content'>
+                    <div>
+                        <i className='uil uil-web-grid projects_icon'></i>
+                        <h3 className='projects_title'>Chat App</h3>
+                    </div>
+
+                    <span className='projects_button' onClick={() => toggleTab(1)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+
+                    <div className={toggleState === 1? 'projects_modal active_modal' : "projects_modal"}>
+                        <div className='projects_modal-content'>
+                            <i onClick={() => toggleTab(0)} className='uil uil-times projects_modal-close'></i>
+
+                            <h3 className='projects_modal-title'>Chat App</h3>
+                            <p className='projects_modal-description'>This Chat App is a modern messaging application built with React, Tailwind CSS, and Firebase. It supports user authentication, real-time messaging, media sharing, emoji integration, and user profile management. Users can add, block, and remove other users, edit their profiles, and enjoy a seamless chatting experience.</p>
+
+                            <ul className='projects_modal-projects grid'>
+
+                                <li className='projects_modal-project'>
+                                    <i className='uil uil-check-circle servies_modal-icon'></i>
+                                    <p className='projects_modal-info'>
+                                        <a href='https://sanchiitvijay.github.io/chat-app' className='projects_modal-link' rel="noopener noreferrer" target='_blank'>github.io/chat-app</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
                 {/* Diabetics Predictor */}
                 <div className='projects_content'>
                     <div>
@@ -21,9 +51,9 @@ function Projects(){
                         <h3 className='projects_title'>Diabetics Predictor</h3>
                     </div>
 
-                    <span className='projects_button' onClick={() => toggleTab(1)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+                    <span className='projects_button' onClick={() => toggleTab(2)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
 
-                    <div className={toggleState === 1? 'projects_modal active_modal' : "projects_modal"}>
+                    <div className={toggleState === 2? 'projects_modal active_modal' : "projects_modal"}>
                         <div className='projects_modal-content'>
                             <i onClick={() => toggleTab(0)} className='uil uil-times projects_modal-close'></i>
 
@@ -55,9 +85,9 @@ web application.</p>
                         <h3 className='projects_title'>Ball-game</h3>
                     </div>
 
-                    <span className='projects_button' onClick={() => toggleTab(2)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+                    <span className='projects_button' onClick={() => toggleTab(3)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
 
-                    <div className={toggleState === 2? 'projects_modal active_modal' : "projects_modal"}>
+                    <div className={toggleState === 3? 'projects_modal active_modal' : "projects_modal"}>
                         <div className='projects_modal-content'>
                             <i onClick={() => toggleTab(0)} className='uil uil-times projects_modal-close'></i>
 
@@ -85,9 +115,9 @@ web application.</p>
                         <h3 className='projects_title'>Waver</h3>
                     </div>
 
-                    <span className='projects_button' onClick={() => toggleTab(3)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+                    <span className='projects_button' onClick={() => toggleTab(4)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
 
-                    <div className={toggleState === 3? 'projects_modal active_modal' : "projects_modal"}>
+                    <div className={toggleState === 4? 'projects_modal active_modal' : "projects_modal"}>
                         <div className='projects_modal-content'>
                             <i onClick={() => toggleTab(0)} className='uil uil-times projects_modal-close'></i>
 
@@ -118,9 +148,9 @@ interact with posts by liking.
                         <h3 className='projects_title'>Kloud</h3>
                     </div>
 
-                    <span className='projects_button' onClick={() => toggleTab(4)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+                    <span className='projects_button' onClick={() => toggleTab(5)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
 
-                    <div className={toggleState === 4? 'projects_modal active_modal' : "projects_modal"}>
+                    <div className={toggleState === 5? 'projects_modal active_modal' : "projects_modal"}>
                         <div className='projects_modal-content'>
                             <i onClick={() => toggleTab(0)} className='uil uil-times projects_modal-close'></i>
 
@@ -147,9 +177,9 @@ interact with posts by liking.
                         <h3 className='projects_title'>ENMA</h3>
                     </div>
 
-                    <span className='projects_button' onClick={() => toggleTab(5)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+                    <span className='projects_button' onClick={() => toggleTab(6)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
 
-                    <div className={toggleState === 5? 'projects_modal active_modal' : "projects_modal"}>
+                    <div className={toggleState === 6? 'projects_modal active_modal' : "projects_modal"}>
                         <div className='projects_modal-content'>
                             <i onClick={() => toggleTab(0)} className='uil uil-times projects_modal-close'></i>
 
@@ -183,9 +213,9 @@ interact with posts by liking.
                         <h3 className='projects_title'>Text-extraction</h3>
                     </div>
 
-                    <span className='projects_button' onClick={() => toggleTab(6)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+                    <span className='projects_button' onClick={() => toggleTab(7)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
 
-                    <div className={toggleState === 3? 'projects_modal active_modal' : "projects_modal"}>
+                    <div className={toggleState === 7? 'projects_modal active_modal' : "projects_modal"}>
                         <div className='projects_modal-content'>
                             <i onClick={() => toggleTab(6)} className='uil uil-times projects_modal-close'></i>
 
@@ -221,9 +251,9 @@ interact with posts by liking.
                         <h3 className='projects_title'>KaroKaro</h3>
                     </div>
 
-                    <span className='projects_button' onClick={() => toggleTab(7)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+                    <span className='projects_button' onClick={() => toggleTab(8)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
 
-                    <div className={toggleState === 7? 'projects_modal active_modal' : "projects_modal"}>
+                    <div className={toggleState === 8? 'projects_modal active_modal' : "projects_modal"}>
                         <div className='projects_modal-content'>
                             <i onClick={() => toggleTab(0)} className='uil uil-times projects_modal-close'></i>
 
@@ -251,11 +281,11 @@ interact with posts by liking.
                         <h3 className='projects_title'>Qr-Maker</h3>
                     </div>
 
-                    <span className='projects_button' onClick={() => toggleTab(8)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
+                    <span className='projects_button' onClick={() => toggleTab(9)}>View More <i className='uil uil-arrow-right projects_button-icon'></i></span>
 
                     <div className={toggleState === 8? 'projects_modal active_modal' : "projects_modal"}>
                         <div className='projects_modal-content'>
-                            <i onClick={() => toggleTab(0)} className='uil uil-times projects_modal-close'></i>
+                            <i onClick={() => toggleTab(9)} className='uil uil-times projects_modal-close'></i>
 
                             <h3 className='projects_modal-title'>Qr-Maker</h3>
                             <p className='projects_modal-description'>
